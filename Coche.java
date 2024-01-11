@@ -3,6 +3,7 @@ public class Coche {
     public boolean Estado;
     public String Color;
     public Long Kilometros;
+    public String Caballos;
 
 
     public String getMarca() {
@@ -21,6 +22,10 @@ public class Coche {
         return Kilometros;
     }
 
+    public String getCaballos() {
+        return Caballos;
+    }
+
     public void setMarca(String marca) {
         Marca = marca;
     }
@@ -35,5 +40,9 @@ public class Coche {
 
     public void setKilometros(Long kilometros) {
         Kilometros = kilometros;
+    }
+
+    public void setCaballos(String caballos) {
+        Caballos = caballos;
     }
 }
